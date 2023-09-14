@@ -18,17 +18,20 @@ class KeypadCracker(FixtureSpec):
 
         ###################################################
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
-        # TODO: Prompt user to enter a number (1-12) from the keyboard
-        
-        # TODO: Convert birth_month to integer; store as birth_month_number
+        #Prompt user to enter a number (1-12) from the keyboard
+        user_prompt = input("Enter a number between 1 and 12: ")
+        print(user_prompt)
+        #Convert birth_month to integer; store as birth_month_number
+        birth_month_number = int(birth_month)
 
         # TODO: Create separate variable to keep track of alterations to 
         #       birth_month_number -- we need the original for the final
         #       calculation!
-
+        store_birth_month_number = birth_month_number
         # TODO: Multiply our running_number by 3
-
+        calculation = running_number / 3
         # TODO: Add 6 to our running_number
+        calculation =+ 6
 
         # TODO: Divide running_number by 3
 

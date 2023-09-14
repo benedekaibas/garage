@@ -29,7 +29,7 @@ That's right, none of the new `term-world` inhabitants have access to their `gar
 
 Not only do you have a `house`, but you also have a handy `garage` -- a place where you can complete some experimental devices using your `workshop`. Like with everything `term-world` (as the news above tells us) there's a catch: the garage has a keycode which no one wrote down, and no one remembers. We have to use a device to -- there's no way around it -- _break in_.
 
-Once in, have a look around your `WIDTH` x `LENGTH` garage!
+Once in, have a look around your `31` x `33` garage!
 
 In this set of activities we cover:
 
