@@ -34,9 +34,13 @@ class KeypadCracker(FixtureSpec):
         calculation =+ 6
 
         # TODO: Divide running_number by 3
+        calculation / 3
 
-        # TODO: Substract birth_month_number FROM running_number, store
-        #       as a separate variable to input into the keypad
+        #Substract birth_month_number FROM running_number, store
+        #as a separate variable to input into the keypad
+
+        store_substraction = 
+
 
         # TODO: To derive the second digit, subtract 1 from the first digit
         
