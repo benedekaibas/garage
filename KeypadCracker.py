@@ -59,7 +59,7 @@ class KeypadCracker(FixtureSpec):
         ###################################################
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         #Prompt user to enter a number (1-31) from the keyboard
-        birthday = input("Enter a number between [1 - 31] from your keyboard: ")
+        birthday = int(input("Enter a number between [1 - 31] from your keyboard: "))
         #Convert birthday to integer; store as birth_day_number
         birth_day_number = int(birthday)
         # TODO: Create separate variable to keep track of alterations to 
