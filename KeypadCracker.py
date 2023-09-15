@@ -18,32 +18,36 @@ class KeypadCracker(FixtureSpec):
 
         ###################################################
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
+
         #Prompt user to enter a number (1-12) from the keyboard
-        user_prompt = input("Enter a number between 1 and 12: ")
+        birth_month = int(input("Enter the month [1 - 12] you were born in: "))
         print(user_prompt)
+
+
         #Convert birth_month to integer; store as birth_month_number
         birth_month_number = int(birth_month)
 
         # TODO: Create separate variable to keep track of alterations to 
         #       birth_month_number -- we need the original for the final
         #       calculation!
-        store_birth_month_number = birth_month_number
+        running_number = birth_month_number
         # TODO: Multiply our running_number by 3
-        calculation = running_number / 3
+        running_number *= 3
         # TODO: Add 6 to our running_number
-        calculation =+ 6
+        running_number += 6 
 
         # TODO: Divide running_number by 3
-        calculation / 3
+        running_number /= 3
+        
 
         #Substract birth_month_number FROM running_number, store
         #as a separate variable to input into the keypad
-
-        store_substraction = 
+        substract = birth_month_number - running_number
+        
 
 
         # TODO: To derive the second digit, subtract 1 from the first digit
-        
+        first_digit = substract[0] - 1
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
 
@@ -54,30 +58,30 @@ class KeypadCracker(FixtureSpec):
         ###################################################
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         # TODO: Prompt user to enter a number (1-31) from the keyboard
-    
+        birthday = input("Enter a number between [1 - 31] from your keyboard: ")
         # TODO: Convert birthday to integer; store as birth_day_number
-
+        birth_day_number = int(birthday)
         # TODO: Create separate variable to keep track of alterations to 
         #       birth_day_number -- we need the original for the final
         #       calculation!
-
+        running_number = birth_day_number
         # TODO: Add 1 to running_number
-
+        running_number += 1
         # TODO: Mulitiply running_number by 2 (doubling it)
-
+        running_number *= 2
         # TODO: Add 4 to running_number
-
+        running_number += 4
         # TODO: Divide running_number by 2
-
+        running_number /= 2
         # TODO: Subtract birth_day_number from running_number
-
+        substraction = running_number - birth_day_number
         # TODO: Set aside the current value of running_number as the
         #       third_digit of the code
-
+        third_digit = running_number[3]
         # TODO: Multiply running_number by 2 (double it)
-
+        running_number *= 2
         # TODO: Add 3 to running_number
-
+        running_number += 2
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
 
