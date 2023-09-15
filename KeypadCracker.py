@@ -20,9 +20,10 @@ class KeypadCracker(FixtureSpec):
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
 
         #Prompt user to enter a number (1-12) from the keyboard
-        birth_month = int(input("Enter the month [1 - 12] you were born in: "))
-        print(user_prompt)
 
+        birth_month = int(input("Enter the month [1 - 12] you were born in: "))
+        
+        #prompt("Enter the month [1 - 12] you were born in: ")
 
         #Convert birth_month to integer; store as birth_month_number
         birth_month_number = int(birth_month)
@@ -57,9 +58,9 @@ class KeypadCracker(FixtureSpec):
 
         ###################################################
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
-        # TODO: Prompt user to enter a number (1-31) from the keyboard
+        #Prompt user to enter a number (1-31) from the keyboard
         birthday = input("Enter a number between [1 - 31] from your keyboard: ")
-        # TODO: Convert birthday to integer; store as birth_day_number
+        #Convert birthday to integer; store as birth_day_number
         birth_day_number = int(birthday)
         # TODO: Create separate variable to keep track of alterations to 
         #       birth_day_number -- we need the original for the final
