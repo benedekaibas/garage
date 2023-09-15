@@ -27,27 +27,27 @@ class KeypadCracker(FixtureSpec):
         #Convert birth_month to integer; store as birth_month_number
         birth_month_number = int(birth_month)
 
-        # TODO: Create separate variable to keep track of alterations to 
-        #       birth_month_number -- we need the original for the final
-        #       calculation!
+        #Create separate variable to keep track of alterations to 
+        #birth_month_number -- we need the original for the final
+        #calculation!
         running_number = birth_month_number
-        # TODO: Multiply our running_number by 3
+        #Multiply our running_number by 3
         running_number *= 3
-        # TODO: Add 6 to our running_number
+        #Add 6 to our running_number
         running_number += 6 
 
-        # TODO: Divide running_number by 3
+        #Divide running_number by 3
         running_number /= 3
         
 
         #Substract birth_month_number FROM running_number, store
         #as a separate variable to input into the keypad
-        substract = birth_month_number - running_number
+        first_digit = running_number - birth_month_number
         
 
 
-        # TODO: To derive the second digit, subtract 1 from the first digit
-        first_digit = substract[0] - 1
+        #To derive the second digit, subtract 1 from the first digit
+        second_digit = first_digit - 1
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
 
