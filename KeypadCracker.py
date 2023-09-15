@@ -78,7 +78,7 @@ class KeypadCracker(FixtureSpec):
         substraction = running_number - birth_day_number
         # TODO: Set aside the current value of running_number as the
         #       third_digit of the code
-        third_digit = running_number[3]
+        third_digit = running_number - 3
         # TODO: Multiply running_number by 2 (double it)
         running_number *= 2
         # TODO: Add 3 to running_number
