@@ -59,30 +59,32 @@ class KeypadCracker(FixtureSpec):
         ###################################################
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         #Prompt user to enter a number (1-31) from the keyboard
-        birthday = int(input("Enter a number between [1 - 31] from your keyboard: "))
+        birthday = input("Enter a number between [1 - 31] from your keyboard: ")
         #Convert birthday to integer; store as birth_day_number
         birth_day_number = int(birthday)
-        # TODO: Create separate variable to keep track of alterations to 
-        #       birth_day_number -- we need the original for the final
-        #       calculation!
+        #Create separate variable to keep track of alterations to 
+        #birth_day_number -- we need the original for the final
+        #calculation!
         running_number = birth_day_number
-        # TODO: Add 1 to running_number
-        running_number += 1
-        # TODO: Mulitiply running_number by 2 (doubling it)
+        #Add 1 to running_number
+        running_number = running_number + 1
+        #Mulitiply running_number by 2 (doubling it)
+        running_number = running_number * 2
+        #Add 4 to running_number
+        running_number = running_number + 4
+        #Divide running_number by 2
+        running_number = running_number / 2
+        #Subtract birth_day_number from running_number
+        current_value = running_number -  birth_day_number  #third_digit was substraction
+        #Set aside the current value of running_number as the
+        #third_digit of the code
+
+        third_digit = running_number
+        
+        #Multiply running_number by 2 (double it)
         running_number *= 2
-        # TODO: Add 4 to running_number
-        running_number += 4
-        # TODO: Divide running_number by 2
-        running_number /= 2
-        # TODO: Subtract birth_day_number from running_number
-        substraction = running_number - birth_day_number
-        # TODO: Set aside the current value of running_number as the
-        #       third_digit of the code
-        third_digit = running_number - 3
-        # TODO: Multiply running_number by 2 (double it)
-        running_number *= 2
-        # TODO: Add 3 to running_number
-        running_number += 2
+        #Add 3 to running_number
+        running_number += 3
         ## WORK HERE -- MATCH INDENTATION LEVEL OF THIS COMMENT
         ###################################################
 
